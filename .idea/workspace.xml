@@ -10,6 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f92b55fa-a8fe-4011-a9c8-cdc53b6559ac" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/.idea/codeStyles/Project.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/.idea/markdown-navigator/profiles_settings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/.idea/runConfigurations.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/lib/ContainerDemo.dart" />
       <change beforePath="" afterPath="$PROJECT_DIR$/lib/HomeWidget.dart" />
       <change beforePath="" afterPath="$PROJECT_DIR$/lib/ListViewDemo.dart" />
