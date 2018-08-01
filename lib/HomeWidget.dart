@@ -5,6 +5,12 @@ import 'package:startup_name/RawAndColumnDemo.dart';
 import 'package:startup_name/StackDemo.dart';
 import 'package:startup_name/ListViewDemo.dart';
 import 'package:startup_name/RandomWords.dart';
+import 'package:startup_name/CenterDemo.dart';
+import 'package:startup_name/PositionDemo.dart';
+import 'package:startup_name/MarginAndPaddingDemo.dart';
+import 'package:startup_name/DecoratedBoxDemo.dart';
+import 'package:startup_name/SizeAndAspectRatioDemo.dart';
+import 'package:startup_name/OpacityDemo.dart';
 class HomeWidget extends StatefulWidget {
 
   @override
@@ -49,7 +55,51 @@ class HomeState extends State<HomeWidget> {
                       onPressed: _randomWords,
                       child: new Text("随机单词示例"))
                 ],
-              )
+              ),
+              new Row(
+                children: <Widget>[
+                  new MaterialButton(
+                      color: Colors.deepOrangeAccent,
+                      onPressed: _centerDemo,
+                      child: new Text("居中布局")),
+                  new MaterialButton(
+                      color: Colors.deepOrangeAccent,
+                      onPressed: _positionDemo,
+                      child: new Text("控件位置示例"))
+                ],
+              ),
+              new Row(
+                children: <Widget>[
+                  new MaterialButton(
+                      color: Colors.deepOrangeAccent,
+                      onPressed: _marginAndPaddingDemo,
+                      child: new Text("内边距和外边距示例")),
+                  new MaterialButton(
+                      color: Colors.deepOrangeAccent,
+                      onPressed: _decoratedBoxDemo,
+                      child: new Text("装饰容器示例")),
+//                  new MaterialButton(
+//                      color: Colors.deepOrangeAccent,
+//                      onPressed: _positionDemo,
+//                      child: new Text("控件位置示例"))
+                ],
+              ),
+              new Row(
+                children: <Widget>[
+                  new MaterialButton(
+                      color: Colors.deepOrangeAccent,
+                      onPressed: _sizeAndAspectRatioDemo,
+                      child: new Text("强制大小和比例显示")),
+                  new MaterialButton(
+                      color: Colors.deepOrangeAccent,
+                      onPressed: _opacityDemo,
+                      child: new Text("透明度")),
+//                  new MaterialButton(
+//                      color: Colors.deepOrangeAccent,
+//                      onPressed: _positionDemo,
+//                      child: new Text("控件位置示例"))
+                ],
+              ),
             ],
           ),
         )
@@ -88,6 +138,55 @@ class HomeState extends State<HomeWidget> {
     Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) {
       return new Scaffold(
         body: new RandomWords(),
+      );
+    }));
+  }
+
+
+  void _positionDemo() {
+    Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) {
+      return new Scaffold(
+        body: new PositionDemo(),
+      );
+    }));
+  }
+
+  void _marginAndPaddingDemo() {
+    Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) {
+      return new Scaffold(
+        body: new MarginAndPaddingDemo(),
+      );
+    }));
+  }
+  void _decoratedBoxDemo() {
+    Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) {
+      return new Scaffold(
+        body: new DecoratedBoxDemo(),
+      );
+    }));
+  }
+
+
+  void _centerDemo() {
+    Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) {
+      return new Scaffold(
+        body: new CenterDemo(),
+      );
+    }));
+  }
+
+  void _sizeAndAspectRatioDemo() {
+    Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) {
+      return new Scaffold(
+        body: new SizeAndAspectRatioDemo(),
+      );
+    }));
+  }
+
+  void _opacityDemo() {
+    Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) {
+      return new Scaffold(
+        body: new OpacityDemo(),
       );
     }));
   }
